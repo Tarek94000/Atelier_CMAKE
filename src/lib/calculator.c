@@ -1,21 +1,26 @@
 #include "./../../include/calculator.h"
 
-double _add(double a, double b) {
-    return a + b;
+double _add(double a, double b)
+{
+	return a+b;
 }
 
-double _sub(double a, double b) {
-    return a - b;
+double _sub(double a, double b)
+{
+	return a-b;
 }
 
-double _mul(double a, double b) {
-    return a * b;
+double _mul(double a, double b)
+{
+	return a*b;
 }
 
-double _div(double a, double b) {
-    return a / b;
+double _div(double a, double b)
+{
+	return a/b;
 }
-
-double square(double a) {
-    return a * a;
+	
+double _car(double a)
+{
+	return a * a;
 }
